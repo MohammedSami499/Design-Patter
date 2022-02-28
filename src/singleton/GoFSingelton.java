@@ -3,7 +3,6 @@ package singleton;
 public class GoFSingelton {
 
 	public String testVar ;
-	
 	public static GoFSingelton instance ;
 	
 	private GoFSingelton(String val) {
@@ -21,6 +20,7 @@ public class GoFSingelton {
 	
 	public static GoFSingelton getInstance(String testValue) {
 		
+		//checking wither the object is already initialized or not 
 		if(instance == null) {
 			instance = new GoFSingelton(testValue);
 		}
