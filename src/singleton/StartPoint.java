@@ -15,6 +15,8 @@ public class StartPoint {
 	}
 	
 	
+	//this for making the 2 process runs synchronously 
+	
 	static class Singleton1 implements Runnable {
 
 		@Override

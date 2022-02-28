@@ -12,8 +12,7 @@ public class GoFSingelton {
 	
 	public static GoFSingelton getInstance(String testValue) {
 		
-		//checking wither the object is already initialized or not 
-		
+		//this for preventing creating 2 instance in the multi-threading case
 		GoFSingelton result = instance;
 		if(result != null)
 			return result;
