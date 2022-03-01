@@ -21,7 +21,6 @@ public class StartPoint {
 
 		@Override
 		public void run() {
-			
 			GoFSingelton singelton = GoFSingelton.getInstance("First Obj!!");
 			System.out.println(singelton.testVar);
 		}

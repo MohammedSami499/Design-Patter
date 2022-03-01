@@ -3,7 +3,7 @@ package singleton;
 public class GoFSingelton {
 
 	public String testVar ;
-	public static volatile GoFSingelton instance ;
+	public static volatile GoFSingelton instance;
 	
 	private GoFSingelton(String val) {
 		
